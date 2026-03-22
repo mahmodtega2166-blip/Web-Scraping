@@ -1,25 +1,31 @@
-# Web Scraping Project
+# Web Scraping App (Streamlit)
 
-A simple Python-based web scraping project that extracts data from a target website, parses the content, and processes it for further use.
+A Python-based web scraping application that extracts data from multiple websites and displays the results through an interactive Streamlit interface.
 
-##  Features
-- Fetches HTML content from a website
-- Parses data using Python
-- Includes a test file for validation
-- Organized into multiple modules (scrape, parse, main)
+## 🚀 Overview
+This project performs automated web scraping using Python, processes the extracted data, and presents it in a clean and user-friendly dashboard built with Streamlit.
 
-## Project Structure
-- main.py — Entry point of the project
-- scrape.py — Handles fetching website content
-- parse.py — Extracts and processes data
-- test_scrape.py — Basic tests for scraping functions
-- requirements.txt — Project dependencies
+The app supports scraping from various sources and is designed to be easily extendable.
 
-- 
-##  Run 
-streamlit run main.py
+## 🧰 Technologies Used
+- Python
+- Streamlit
+- Requests / BeautifulSoup (or your scraping libraries)
+- Pandas
+- Other dependencies listed in `requirements.txt`
 
-##  Installation
+## 📁 Project Structure
+- **main.py** — Streamlit app entry point  
+- **scrape.py** — Handles fetching and scraping website data  
+- **parse.py** — Cleans and processes scraped content  
+- **test_scrape.py** — Basic tests for scraping functions  
+- **requirements.txt** — Project dependencies  
+- **.gitignore** — Ignored files and folders  
+
+## ▶️ How to Run the App
+Install dependencies:
+
 ```bash
 pip install -r requirements.txt
 
+streamlit run main.py
