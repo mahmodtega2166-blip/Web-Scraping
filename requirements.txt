@@ -1,0 +1,9 @@
+streamlit
+beautifulsoup4
+lxml
+html5lib
+python-dotenv
+requests
+fake-useragent
+langdetect
+pandas
